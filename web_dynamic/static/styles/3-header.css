@@ -11,4 +11,24 @@ header {
 	height: 70px;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+
+header #api_status {
+	/* Align to the right */
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 15px;
+	right: 30px;
+	background-color: #cccccc;
+	border-radius: 50%;
+}
+
+.available {
+	background-color: #ff545f !important;
+}
+
+.container .filters button {
+	color: white;
 }
